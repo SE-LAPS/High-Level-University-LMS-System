@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 6, 2023, 9:24:19 PM
+    Author     : Silvia_Ignatius
+*/
+
+:root {
+  --primary-color: #235391;
+  --secondary-color: #55c360;
+  --background-color: #f4f9fd;
+  --text-color: #010101;
+  --icon-color: #1d7a85;
+  --icon-hover-color: #0f6c74;
+  --container-bg-color: #ffffff;
+  --info-text-color: #bcbcbc;
+}
+
+.contact-us {
+  background-color: var(--background-color);
+  padding: 50px 0;
+}
+
+.contact-us h2 {
+  color: var(--primary-color);
+}
+
+.contact-us p {
+  color: var(--text-color);
+}
+
+.container {
+  background-color: var(--container-bg-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container .form-label {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.container .form-control {
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.container .form-control:focus {
+  border-color: var(--secondary-color);
+}
+
+.container .btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--text-color);
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container .btn-primary:hover {
+  background-color: var(--icon-hover-color);
+}
+
+.container textarea {
+  resize: vertical;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info {
+    margin-bottom: 10px;
+  }
+
+  .contact-info .icon {
+    font-size: 20px;
+  }
+
+  .contact-info h5 {
+    font-size: 16px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .container .form-label {
+    font-size: 18px;
+  }
+
+  .container .form-control {
+    font-size: 14px;
+  }
+
+  .container .btn-primary {
+    font-size: 16px;
+  }
+}

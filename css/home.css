@@ -1,0 +1,64 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 25, 2023, 3:02:49 PM
+    Author     : Silvia_Ignatius
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2023, 12:45:18 PM
+    Author     : Silvia_Ignatius
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+.home-body{
+    background-color: #f5f5f5;
+    padding-bottom: 64px;
+
+
+    .skill-content, .skill-list{
+        color: #404145;
+        display: block;
+        margin: 5px 30px 5px 30px;
+    }
+
+
+    .hero-image {
+        background-image: url('../img/home.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 100vh;
+        position: relative;
+        text-align: center;
+        color: #fff;
+
+       .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    background-color: rgba(169, 169, 169, 0.7);
+    padding: 20px; /* Add some padding to make it more visually appealing */
+}
+
+
+    }
+}

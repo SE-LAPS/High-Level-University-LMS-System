@@ -1,0 +1,63 @@
+/*---------------------------Tutor Profile css------------------*/
+
+
+.tutorProfileRow{
+    margin: 50px;
+
+
+    #TutorProfile{
+        padding: 10px;
+    }
+
+    .tutorProfileCard{
+        padding: 20px;
+
+        .TutorProfileEdit{
+            color: #007bff;
+            font-size: 11px;
+            cursor: pointer;
+        }
+    }
+}
+
+.custom-container {
+    background-color: #f7f7f7; /* Customize the background color */
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    padding: 20px 70px 20px 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+    .custom-title {
+        padding-left: 70px;
+        color: #736f6e; /* Change the title text color */
+    }
+
+    .custom-button {
+        margin-top: 10px; /* Add space between the title and the button */
+        padding-right: 70px;
+    }
+
+    .custom-button a {
+        background-color: #007BFF; /* Change the button background color */
+        color: #fff; /* Change the button text color */
+    }
+}
+.reviewSectionRow{
+    padding: 20px 40px 20px 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    .tutorProfileReviewW{
+        background-color: #f7f7f7;
+        padding: 20px 40px 20px 40px;
+        margin-left: 25px;
+        margin-right: 20px;
+        border-radius: 1%;
+    }
+}
+
+

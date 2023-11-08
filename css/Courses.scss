@@ -1,0 +1,22 @@
+.body{
+    background-color: #fff;
+    .profile-image-small {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .image-container {
+        max-width: 100%;
+        height: auto;
+    }
+    .container1{
+        background-color: #fff;
+    }
+    .container2{
+        background-color: #f4f9fd;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+}

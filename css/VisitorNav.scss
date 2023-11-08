@@ -1,0 +1,14 @@
+
+/*------------------------Nav Bar---------------------------*/
+
+.navbar {
+    background-color: #1c3276;
+    .navbar-nav {
+        .nav-item {
+            .nav-link, .navbar-brand {
+                color: white !important;
+            }
+        }
+    }
+}
+

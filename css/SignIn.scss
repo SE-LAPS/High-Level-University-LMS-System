@@ -1,0 +1,131 @@
+/* 
+    Created on : Sep 6, 2023, 9:24:19 PM
+    Author     : Silvia_Ignatius
+*/
+
+:root {
+  --primary-color: #235391;
+  --secondary-color: #55c360;
+  --background-color: #f4f9fd;
+  --text-color: #010101;
+  --icon-color: #1d7a85;
+  --icon-hover-color: #0f6c74;
+  --container-bg-color: #ffffff;
+  --info-text-color: #bcbcbc;
+}
+
+.body{
+    background-color: var(--background-color);
+}
+
+.contact-us {
+  background-color: var(--background-color);
+  padding: 50px 0;
+}
+
+.signin-form h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.signin-form label {
+  padding-bottom: 5px;
+}
+
+.container {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container .form-label {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.container .form-control {
+  border: 2px solid var(--primary-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.container .form-control:focus {
+  border-color: var(--secondary-color);
+}
+
+.container .btn-primary {
+  background-color: var(--secondary-color);
+  border: none;
+  color: var(--container-bg-color);
+  font-size: 18px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container .btn-primary:hover {
+  background-color: var(--icon-hover-color);
+}
+
+.container textarea {
+  resize: vertical;
+}
+
+.container {
+                padding: 20px;
+                margin-top: 50px;
+                width: auto;
+                max-width: 800px;
+            }
+            .signin-container {
+                background-color: #ffffff;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 40px;
+                display: flex;
+                width: auto;
+                align-items: flex-start;
+            }
+            .signin-image {
+                height: 60vh;
+                width: auto;
+            }
+
+            .signin-form {
+                background-color: #fafafa;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                padding: 30px;
+            }
+
+            .signin-heading {
+                font-size: 28px;
+                font-weight: bold;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+            }
+
+            .form-control {
+                font-size: 16px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 100%;
+            }
+
+@media screen and (max-width: 768px) {
+  .container .form-label {
+    font-size: 18px;
+  }
+
+  .container .form-control {
+    font-size: 14px;
+  }
+
+  .container .btn-primary {
+    font-size: 16px;
+  }
+}
+

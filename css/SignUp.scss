@@ -1,0 +1,97 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+/*---------------------------Sign Up Page -------------------------*/
+:root {
+    --primary-color: #235391;
+    --secondary-color: #55c360;
+    --background-color: #f4f9fd;
+    --text-color: #010101;
+    --icon-color: #1d7a85;
+    --icon-hover-color: #0f6c74;
+    --container-bg-color: #ffffff;
+    --info-text-color: #bcbcbc;
+}
+#Signup {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px ;
+    margin-top: 20px ;
+    align-content: center;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.SignupBody{
+    background-color: var(--background-color);
+    padding: 50px 0;
+
+}
+.SignupBody h2 {
+    color: var(--primary-color);
+}
+
+.form-container{
+    background-color: var(--container-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+.form-container .form-label {
+    color: var(--primary-color);
+    font-size: 18px;
+    padding-left: 12px;
+}
+
+.form-container .form-control {
+    border: 2px solid var(--primary-color);
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.form-container .form-control:focus {
+    border-color: var(--secondary-color);
+}
+
+.form-container .btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--container-bg-color);
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-container .btn-primary:hover {
+    background-color: var(--icon-hover-color);
+}
+
+.form-container textarea {
+    resize: vertical;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+   .form-container .form-label {
+        font-size: 18px;
+    }
+
+    .form-container .form-control {
+        font-size: 14px;
+    }
+
+    .form-container .btn-primary {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    max-width: 100%;
+    margin: 10px;
+}
+
+@media (max-width: 576px) {
+    padding: 10px;
+}

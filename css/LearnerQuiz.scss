@@ -1,0 +1,82 @@
+.body{
+    background-color: #f4f9fd;
+
+    .container {
+        background-color: #fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        padding: 20px;
+
+        #quiz-container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .row{
+            padding-left: 40px;
+            padding-right: 40px;
+
+            .next, .submit{
+                float: right;
+            }
+        }
+    }
+    .btn-container {
+        display: flex;
+        justify-content: space-between;
+
+        .btn {
+            font-size: 16px;
+            padding: 10px 20px;
+
+            &.btn-primary {
+                background-color: #007BFF;
+                color: #fff;
+                border: none;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #0056b3;
+                }
+            }
+        }
+    }
+
+    .form-check {
+        margin: 10px 0;
+        padding: 10px 0;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        .form-check-label {
+            font-size: 18px;
+        }
+    }
+
+    #resultContainer {
+        text-align: center;
+        padding: 20px;
+
+        h3 {
+            font-size: 24px;
+            color: #333;
+        }
+    }
+
+    #successMsg {
+        text-align: center;
+
+        span{
+            font-size: 20px;
+            color: #333;
+            margin: 20px 0;
+            padding: 10px;
+        }
+    }
+
+    .score{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
